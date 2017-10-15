@@ -1,13 +1,12 @@
 {
-  "name": "react-youtube-search-api",
+  "name": "YouTube",
   "version": "1.0.0",
-  "description": "Simple project using React and Youtube Api Search",
+  "description": "Youtube Api Search",
   "main": "index.js",
-  "repository": "git@github.com:jamalsoueidan/React-Youtube-Search-Api.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
-  "author": "Jamal Soueidan",
+  "author": "Cory",
   "devDependencies": {
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",

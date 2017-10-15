@@ -6,7 +6,7 @@ import Detail from './components/detail'
 import YTSearch from 'youtube-api-search';
 
 // please update this with your API-key
-const API_KEY = "AIzaSyDXQ1H2iW0GC1wlN5X_U55Lhv2VX3QSjc4";
+const API_KEY = "AIzaSyA7qpYTkyEEt_FSySWfVfY0rFFBMf58L4k";
 
 class Application extends Component {
   constructor(props) {

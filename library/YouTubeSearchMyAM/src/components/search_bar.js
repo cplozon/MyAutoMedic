@@ -6,7 +6,7 @@ class SearchBar extends React.Component {
       <div className="input-group">
         <input type="text" className="form-control" ref="search"/>
         <span className="input-group-btn">
-          <button className="btn btn-default" type="button" onClick={(event) => this.props.onSearchTerm(this.refs.search.value)}>Go!</button>
+          <button className="btn btn-default" type="button" onClick={(event) => this.props.onSearchTerm(this.refs.search.value)}>Search!</button>
         </span>
       </div>
     )
