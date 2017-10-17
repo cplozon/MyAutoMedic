@@ -6,6 +6,10 @@ const express = require('express'),
       mongoose = require('mongoose'),
       config = require('./config/main');
 
+
+//route for user authorization
+const router = require('./router'); 
+
 // Start the server
 const server = app.listen(config.port);  
 console.log('Your server is running on port ' + config.port + '.');  
@@ -27,3 +31,4 @@ app.use(function(req, res, next) {
 
 // Database Connection
 mongoose.connect(config.database);  
+router(app);  
