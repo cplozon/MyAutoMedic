@@ -1,0 +1,26 @@
+{
+  "name": "YouTubeCars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"./src/indextheme.js\" \"node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js\""
+  },
+  "author": "cory",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.16.0"
+  },
+  "dependencies": {
+    "babel-preset-stage-1": "^6.1.18",
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.12.1",
+    "react": "^0.14.9",
+    "react-dom": "^0.14.9",
+    "youtube-api-search": "0.0.5"
+  }
+}
